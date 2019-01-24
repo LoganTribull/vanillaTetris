@@ -1,0 +1,30 @@
+#box-container{
+  transition: transform .5s;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  position:relative;
+}
+
+.nw{
+  background:blue;
+}
+
+.ne{
+  background:red;
+  top:-100px;
+  right: -100px;
+}
+
+.sw{
+  background:green;
+  top:-100px;
+}
+
+.se{
+  background:black;
+  top:-200px;
+  right: -100px;
+}
